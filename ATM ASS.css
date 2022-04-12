@@ -1,0 +1,38 @@
+body{
+    background-image: url(/download\ \(1\).jfif);
+}
+div{
+    /* background-color:whitesmoke; */
+    background-image: url(/images.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 100px 0 0 440px;
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transform: translatey(50px);
+}
+p{
+    margin-left: 70px;
+    margin-top: 90px;
+    font-size:2em;
+    font-family: cursive;
+    color: black;
+    font-weight: bolder;
+    
+}
+button{
+    background-color: blue;
+    margin-left: 200px;
+    font-size: 1.5em;
+}
+.btn{
+    background-color: blue;
+}
+.btn:hover{ 
+    background-color: wheat;
+}

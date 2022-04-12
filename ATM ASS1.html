@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ATM ASS1.css">
+    <script src="ATM ASS1.js"></script>
+</head>
+<body>
+    <body>
+  <div class="div1">
+    <h1>You are Welcome to Central Bank of NIgeria</h1>
+    <p>Please use the keypad to enter your PIN and press ENTER to continue</p>
+     <div id="disr" style="text-align:center; color: white;font-size: 20px;"></div>
+    <input type="number"id="userInput" disabled
+      minlength="4" required> <br> <br> <br>
+   <div class="btn"> 
+      <button id="button" onclick="me(1)">1</button> 
+      <button id="button" onclick="me(2)">2</button>
+      <button id="button" onclick="me(3)">3</button>
+      <button id="button" onclick="me(4)">4</button>
+      <button id="button" onclick="me(5)">5</button>
+      <button id="button" onclick="me(6)">6</button>
+      <button id="button" onclick="me(7)">7</button>
+      <button id="button" onclick="me(8)">8</button>
+      <button id="button" onclick="me(9)">9</button>
+      <button id="button" onclick="me(0)">0</button> <br> <br> <br>
+      <button id="clr" onclick="clr()">Delete</button>
+      <button id="enter" onclick="mm()">Enter</button>
+     </div> 
+
+     <!-- <div id="hh" style="border: 2px solid red;display: none;">
+      <h1 style="text-align: center;">ATM</h1>
+      <table border="1px" width="400px" height="350px" style="margin-left: 550px;">
+          <tbody>
+          <tr>
+              <td><button onclick="withdrawMoney()">withdraw</button></td>
+              <td colspan="2" rowspan="2"><div>
+                  <p id="userBalance"></p>
+                  <p id="userDetails"></p>
+               </div></td>
+              <td><button onclick="depositMoney()">Deposit</button></td>
+          </tr>
+          <tr>
+           <td><button>Transfer</button></td>
+           <td><button>cancel</button></td>
+          </tr>
+          <tr>
+           <td><button>Airtime</button></td>
+           <td colspan="2" rowspan="2"><input type="number" id="userInput"></td>
+           <td><button onclick="turnOn()">Check balance</button></td>
+          </tr>
+          <tr>
+           <td><button onclick="makeTransaction()">Enter</button>
+           </td>
+           <td><button>change pin</button></td>
+          </tr>
+       </tbody>
+      </table> 
+     </div> -->
+</body>
+</html>
